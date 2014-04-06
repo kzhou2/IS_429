@@ -7,9 +7,9 @@ before_script:
 - unzip google_appengine_1.8.8.zip
 - rm google_appengine_1.8.8.zip
 - sudo apt-get install python-imaging
-install: ant deps
 script:
-- git clone https://github.com/andrewbeng89/tictactoe.git deploy
+
+- git clone https://github.com/kzhou2/IS_429.git deploy
 - cd deploy
 - /usr/local/bin/nosetests
 after_success:
