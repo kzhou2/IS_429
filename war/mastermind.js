@@ -29,7 +29,7 @@ function newGame(){
 // --------------------------------------------------------
 // return a string like "01:22" giving min, since game began.
 function elapsedTimeAsString(){
-    var d = new Date();
+    var d = new Date(
     var diff = d.getTime() - startTimeMillis;
     var h = Math.floor( diff/3600000 );
     var m = Math.floor( diff/60000 ) % 60;
