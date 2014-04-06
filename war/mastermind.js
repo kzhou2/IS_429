@@ -17,7 +17,7 @@ colorImages  = ['redball.gif',    'blueball.gif',    'brownball.gif',
                 'greenball.gif',  'yellowball.gif',  'pinkball.gif' ];
 
 // --------------------------------------------------------
-// called when user clicks "New Gameddxx".
+// called when user clicks "New Gameddxwfwex".
 function newGame(){
     resetGame();
     gameNumber++;
